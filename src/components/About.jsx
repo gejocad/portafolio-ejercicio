@@ -2,80 +2,80 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Social from '../components/Social'
-const AboutStyle = styled.div`
+const Styles = styled.div`
     text-align: center;
 `;
 
-const AboutAvatar = styled.div`
+const Profile = styled.div`
     padding: 2em 0 0 0;
 `;
 
-const AboutImg = styled.img`
+const Img = styled.img`
     border-radius: 100%;
     width: 160px;
     height: 160px;
-    border: 2px solid #3F51B5;
+    border: 2px solid #470a14;
     margin: 0 auto;
     display: block;
     box-shadow: 0 0 10px rgba(0,0,0,0,0.6);
 `;
 
-const AboutName = styled.div`
+const Name = styled.div`
     text-align: center;
 `;
 
-const AboutH2 = styled.h2`
+const H2 = styled.h2`
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
-    color: #448AFF;
+    color: #470a14;
 `;
 
-const AboutProfession = styled.p`
+const Profession = styled.p`
     margin: .2em 0 1em 0;
     letter-spacing: 1.6px;
     font-weight: 300;
-    color: #448AFF;
+    color: #a8324e;
 `;
 
-const AboutBio = styled.p`
-    color: #757575;
+const Bio = styled.p`
+    color: #a8324e;
     font-size: 1em;
     font-weight: 300;
 `;
 
-const AboutLocation = styled.p`
-    color: #757575;
+const Location = styled.p`
+    color: #a8324e;
     font-size: 1em;
     font-weight: 400;
 `;
 
 const About = () => (
-    <AboutStyle>
-        <div className="About-container">
-            <AboutAvatar>
+    <Styles>
+        <div className="Container">
+            <Profile>
                 <figure>
-                    <AboutImg src="https://eafitrequisitos.s3.us-east-2.amazonaws.com/john.png" alt="Mi avatar" />
+                    <Img src="https://avatars.githubusercontent.com/u/86790583?v=4" alt="Mi avatar" />
                 </figure>
-            </AboutAvatar>
-            <AboutName>
-                <AboutH2>John Faber Florez</AboutH2>
-            </AboutName>
-            <div className="About-profession">
-                <AboutProfession>FrontEnd Developer en GeekAcademy</AboutProfession>
+            </Profile>
+            <Name>
+                <H2>Jose Zapata</H2>
+            </Name>
+            <div className="Profession">
+                <Profession>Geek Academy, FrontEnd Student </Profession>
             </div>
-            <div className="About-desc">
-                <AboutBio>Soy desarrollador front-end y me encanta enseñar</AboutBio>
+            <div className="Bio">
+                <Bio>Soy Estudiante Front-End</Bio>
             </div>
-            <div className="About-location">
-                <AboutLocation>Medellín, Colombia</AboutLocation>
+            <div className="location">
+                <Location>Arauca, Colombia</Location>
             </div>
-            <div className="About-social">
+            <div className="Social">
                 <Social />
             </div>
         </div>
-    </AboutStyle>
+    </Styles>
 ); 
 
 export default About;

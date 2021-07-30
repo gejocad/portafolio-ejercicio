@@ -1,83 +1,70 @@
 import React from 'react';
 //estilos para volverlo mas presentacional
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 
-const SocialStyle = styled.div`
+const SocialStyles = styled.div`
     margin: 0 auto;
     display: block;
 `;
 
-const SocialUl = styled.ul`
+const Ul = styled.ul`
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
 `;
 
-const SocialLi = styled.li`
+const Li = styled.li`
     display: inline;
-    margin: 0 1em 0 0;
+    margin: 0 10px  0 0;
 
 `;
 
-const SocialAnchor = styled.a`
+const Links = styled.a`
+    font-size: 23px;
     color: #212121;
     text-decoration: none;
-    font-size: 1.2em;
+    
+`;
+const Icon = styled.i`
+    color: #a8324e;
 `;
 
-const SocialIcon = styled.i`
-    color: ${props => props.theme.color};
-`;
 
-const facebook = {
-    color: "#3b5998"
-  };
-  const twitter = {
-    color: "#38A1F3"
-  }
-  const linkedin = {
-    color: "#0e76a8"
-  }
-  const github = {
-    color: "#333"
-  }
   
 
-const fb = "facebook";
 const Social = () => (
-    <SocialStyle>
-        <SocialUl>
-            <SocialLi>
-                <SocialAnchor href="https://www.facebook.com/" target="blanck">
-                    <ThemeProvider theme={facebook}>
-                        <SocialIcon className="fab fa-facebook" />
-                    </ThemeProvider>
-                </SocialAnchor>
-            </SocialLi>
-            <SocialLi>
-                <SocialAnchor href="https://twitter.com/ " target="blanck">
-                    <ThemeProvider theme={twitter}>
-                        <SocialIcon className="fab fa-twitter" />
-                    </ThemeProvider>
-                </SocialAnchor>
-            </SocialLi>
-            <SocialLi>
-                <SocialAnchor href="https://co.linkedin.com/" target="blanck">
-                    <ThemeProvider theme={linkedin}>
-                        <SocialIcon className="fab fa-linkedin" />
-                    </ThemeProvider>
-                </SocialAnchor>
-            </SocialLi>
-            <SocialLi>
-                <SocialAnchor href="https://github.com/" target="blanck">
-                    <ThemeProvider theme={github}>
-                        <SocialIcon className="fab fa-github" />
-                    </ThemeProvider>
-                </SocialAnchor>
-            </SocialLi>
-        </SocialUl>
-
-    </SocialStyle>
+    <SocialStyles>
+        <Ul>
+            <Li>
+                <Links href="https://www.facebook.com/" target="blanck">
+                    
+                        <Icon className="fab fa-facebook" />
+                   
+                </Links>
+            </Li>
+            <Li>
+                <Links href="https://twitter.com/ " target="blanck">
+                   
+                        <Icon className="fab fa-twitter" />
+                   
+                </Links>
+            </Li>
+            <Li>
+                <Links href="https://co.linkedin.com/" target="blanck">
+                   
+                        <Icon className="fab fa-linkedin" />
+                 
+                </Links>
+            </Li>
+            <Li>
+                <Links href="https://github.com/" target="blanck">
+                   
+                        <Icon className="fab fa-github" />
+                    
+                </Links>
+            </Li>
+        </Ul>
+    </SocialStyles>
 );
 
 export default Social;

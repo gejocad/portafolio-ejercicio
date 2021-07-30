@@ -8,8 +8,8 @@ const Education = () => (
         <H2Styled name="Estudios" />
         <div className="Education-container">
             <div className="Education-item">
-                <H3Styled>Ingeniero Informático - PCJIC -
-                    <span>Ag 2010 - Sep 2016</span>
+            <H3Styled>Ingeniero en Informática  
+                    <span>  2009 -  2014</span>
                 </H3Styled>
                 <PStyled name="Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, aptent sociis magnis fermentum iaculis cursus quis dignissim feugiat, eros faucibus mollis hac potenti hendrerit nulla."/>
             </div>

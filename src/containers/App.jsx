@@ -1,7 +1,7 @@
 import React from 'react';
-//importar elemento que viene de stylecomponent
+
 import { createGlobalStyle } from 'styled-components';
-//importar los elementos segun los vamos utilizando
+
 import Main from '../components/Main';
 import SideBar from '../components/SideBar';
 import Info from '../components/Info';
@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Lato', sans-serif;
         margin: 0;
         padding: 0;
-        background: #F5F5F5;
+        background: #d1ded5;
     }
     
 `;
@@ -34,6 +34,8 @@ const App = () => {
                 <Certificates />
                 <Skills />
             </Info>
+           
+
         </Main>
     );
 }
