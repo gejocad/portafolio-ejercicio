@@ -7,8 +7,8 @@ const Certificates = () =>(
         <H2Styled name="Certificaciones" />
         <div className="Certificates-container">
             <div className="Certificates-item">
-                <H3Styled>AWS CCP Abr 2017</H3Styled>
-                <PStyled name="Mollis diam nulla placerat suspendisse maecenas augue et elementum gravida, in lectus hac duis taciti dictum sollicitudin at mauris, conubia enim sapien id vehicula class tristique ad. "/>
+                <H3Styled>FreeCodeCamp Web responsive certification.</H3Styled>
+                <PStyled name="Mollis diam nulla placerat suspendisse maecenas augue. "/>
             </div>
         </div>
     </div>

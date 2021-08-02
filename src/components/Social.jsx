@@ -55,21 +55,21 @@ const Social = () => (
                 </SocialAnchor>
             </SocialLi>
             <SocialLi>
-                <SocialAnchor href="https://twitter.com/ " target="blanck">
+                <SocialAnchor href="https://twitter.com/gejocadev" target="blanck">
                     <ThemeProvider theme={twitter}>
                         <SocialIcon className="fab fa-twitter" />
                     </ThemeProvider>
                 </SocialAnchor>
             </SocialLi>
             <SocialLi>
-                <SocialAnchor href="https://co.linkedin.com/" target="blanck">
+                <SocialAnchor href="https://www.linkedin.com/in/geraldcad/" target="blanck">
                     <ThemeProvider theme={linkedin}>
                         <SocialIcon className="fab fa-linkedin" />
                     </ThemeProvider>
                 </SocialAnchor>
             </SocialLi>
             <SocialLi>
-                <SocialAnchor href="https://github.com/" target="blanck">
+                <SocialAnchor href="https://github.com/gejocad" target="blanck">
                     <ThemeProvider theme={github}>
                         <SocialIcon className="fab fa-github" />
                     </ThemeProvider>

@@ -64,7 +64,7 @@ const Skills = () =>(
             <div className="Skills-item">
                 <SkillsH5>HTML</SkillsH5>
                 <SkillsLine >
-                    <SkillsSpan width={porcentajes[0]} />
+                    <SkillsSpan width={porcentajes[2]} />
                 </SkillsLine>
             </div>
             <div className="Skills-item">
